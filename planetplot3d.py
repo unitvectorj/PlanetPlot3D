@@ -252,11 +252,11 @@ ax.scatter3D(scatx,scaty,scatz,s=plansizes,c=circlecols,depthshade=False)
 #####################################
 ax.view_init(90,0)
 
+"""
 def on_click(event):
     if event.button is MouseButton.LEFT:
-        plt.savefig("orbit2.svg")
-
+        plt.savefig("orbit.svg")
 
 plt.connect('button_press_event', on_click)
-
+"""
 plt.show()
